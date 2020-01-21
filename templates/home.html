@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Fine Living</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="logo">Fine Living</a>
+					<nav id="nav">
+						<a href="{{ url_for('home') }}">Home</a>
+						<a href="{{ url_for('login_page') }}">Log In</a>
+						<a href="#two">About Us</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Welcome to Fine Living</h1>
+				<p>Collecting your data, making your life better.</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header>
+								<h3>Explore your General Health Data<br /> Get feedback</h3>
+							</header>
+							<p>We collect general information about your health through your wearable devices </p>
+							<footer>
+								<a href="{{ url_for('login_page') }}" class="button special">General</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Visualise your Heart<br />View results on our app</h3>
+							</header>
+							<p>We give you the opportunity to fully visualise your heart details.</p>
+							<footer>
+								<a href="{{ url_for('login_page') }}" class="button special">Heart</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Analyse your Blood metrics<br />Improve your life</h3>
+							</header>
+							<p>This mode is spesificaly designed for diabetics.</p>
+							<footer>
+								<a href="{{ url_for('login_page') }}" class="button special">Blood</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header>
+						<h2>Behind Fine Living</h2>
+						<p>Meet our team</p>
+					</header>
+					<div class="flex flex-4">
+						<div class="box person">
+							<div class="image round">
+								<img src="{{ url_for('static', filename='img/zik.jpg') }}" alt="Person 1" />
+							</div>
+							<h3>Zikopis Evangelos</h3>
+							<p>Undergraduate Student AUTH Department of Electrical Engineering</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="{{ url_for('static', filename='img/papa.jpg') }}" alt="Person 2" />
+							</div>
+							<h3>Papageorgiou Dimitris</h3>
+							<p>Undergraduate Student AUTH Department of Electrical Engineering</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="{{ url_for('static', filename='img/kanou.jpg') }}" alt="Person 3" />
+							</div>
+							<h3>Kanoupakis Michail</h3>
+							<p>Undergraduate Student AUTH Department of Electrical Engineering</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../static/assets/js/jquery.min.js"></script>
+			<script src="../static/assets/js/skel.min.js"></script>
+			<script src="../static/assets/js/util.js"></script>
+			<script src="../static/assets/js/main.js"></script>
+
+	</body>
+</html>
