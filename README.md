@@ -1,6 +1,6 @@
 # Fine Living WebApp Instructions
 
-Unfortunately I didn't manage to host my web app to a server, so in order to explore the application you will have to execute the following commands. Ubuntu 16-18 is recommended.
+Unfortunately I didn't manage to host my web app to a server, so in order to explore the application you will have to execute the following commands. Ubuntu 16-18 is recommended. For database details read database/Deliverable1-Team34.pdf or database/README.md.
 
 ## Prerequisites
   - python3
